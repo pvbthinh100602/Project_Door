@@ -8,6 +8,7 @@
 #include "lcd\lcd.h"
 #include "adc\adc.h"
 #include "pwm\pwm.h"
+#include "uart\uart.h"
 
 
 #pragma config OSC		= HS

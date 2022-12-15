@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=adc/adc.c pwm/pwm.c main.c lcd/lcd.c interrupt/interrupt.c timer/timer.c button_matrix/button.c
+SOURCEFILES_QUOTED_IF_SPACED=adc/adc.c pwm/pwm.c main.c lcd/lcd.c interrupt/interrupt.c timer/timer.c button_matrix/button.c uart/uart.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/adc/adc.o ${OBJECTDIR}/pwm/pwm.o ${OBJECTDIR}/main.o ${OBJECTDIR}/lcd/lcd.o ${OBJECTDIR}/interrupt/interrupt.o ${OBJECTDIR}/timer/timer.o ${OBJECTDIR}/button_matrix/button.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/adc/adc.o.d ${OBJECTDIR}/pwm/pwm.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/lcd/lcd.o.d ${OBJECTDIR}/interrupt/interrupt.o.d ${OBJECTDIR}/timer/timer.o.d ${OBJECTDIR}/button_matrix/button.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/adc/adc.o ${OBJECTDIR}/pwm/pwm.o ${OBJECTDIR}/main.o ${OBJECTDIR}/lcd/lcd.o ${OBJECTDIR}/interrupt/interrupt.o ${OBJECTDIR}/timer/timer.o ${OBJECTDIR}/button_matrix/button.o ${OBJECTDIR}/uart/uart.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/adc/adc.o.d ${OBJECTDIR}/pwm/pwm.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/lcd/lcd.o.d ${OBJECTDIR}/interrupt/interrupt.o.d ${OBJECTDIR}/timer/timer.o.d ${OBJECTDIR}/button_matrix/button.o.d ${OBJECTDIR}/uart/uart.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/adc/adc.o ${OBJECTDIR}/pwm/pwm.o ${OBJECTDIR}/main.o ${OBJECTDIR}/lcd/lcd.o ${OBJECTDIR}/interrupt/interrupt.o ${OBJECTDIR}/timer/timer.o ${OBJECTDIR}/button_matrix/button.o
+OBJECTFILES=${OBJECTDIR}/adc/adc.o ${OBJECTDIR}/pwm/pwm.o ${OBJECTDIR}/main.o ${OBJECTDIR}/lcd/lcd.o ${OBJECTDIR}/interrupt/interrupt.o ${OBJECTDIR}/timer/timer.o ${OBJECTDIR}/button_matrix/button.o ${OBJECTDIR}/uart/uart.o
 
 # Source Files
-SOURCEFILES=adc/adc.c pwm/pwm.c main.c lcd/lcd.c interrupt/interrupt.c timer/timer.c button_matrix/button.c
+SOURCEFILES=adc/adc.c pwm/pwm.c main.c lcd/lcd.c interrupt/interrupt.c timer/timer.c button_matrix/button.c uart/uart.c
 
 
 CFLAGS=
@@ -157,6 +157,14 @@ ${OBJECTDIR}/button_matrix/button.o: button_matrix/button.c  nbproject/Makefile-
 	@${DEP_GEN} -d ${OBJECTDIR}/button_matrix/button.o 
 	@${FIXDEPS} "${OBJECTDIR}/button_matrix/button.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
+${OBJECTDIR}/uart/uart.o: uart/uart.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/uart" 
+	@${RM} ${OBJECTDIR}/uart/uart.o.d 
+	@${RM} ${OBJECTDIR}/uart/uart.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1 -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/uart/uart.o   uart/uart.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/uart/uart.o 
+	@${FIXDEPS} "${OBJECTDIR}/uart/uart.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
 else
 ${OBJECTDIR}/adc/adc.o: adc/adc.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/adc" 
@@ -213,6 +221,14 @@ ${OBJECTDIR}/button_matrix/button.o: button_matrix/button.c  nbproject/Makefile-
 	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/button_matrix/button.o   button_matrix/button.c 
 	@${DEP_GEN} -d ${OBJECTDIR}/button_matrix/button.o 
 	@${FIXDEPS} "${OBJECTDIR}/button_matrix/button.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/uart/uart.o: uart/uart.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/uart" 
+	@${RM} ${OBJECTDIR}/uart/uart.o.d 
+	@${RM} ${OBJECTDIR}/uart/uart.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/uart/uart.o   uart/uart.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/uart/uart.o 
+	@${FIXDEPS} "${OBJECTDIR}/uart/uart.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
 endif
 

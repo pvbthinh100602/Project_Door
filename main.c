@@ -1,6 +1,6 @@
 #include "main.h"
 // Noi khai bao hang so
-#define     LED     PORTB
+
 #define     ON      1
 #define     OFF     0
 
@@ -16,10 +16,6 @@ unsigned char statusOutput[8] = {0,0,0,0,0,0,0,0};
 // Khai bao cac ham co ban IO
 void init_system(void);
 void delay_ms(int value);
-void OpenOutput(int index);
-void CloseOutput(int index);
-void TestOutput(void);
-void ReverseOutput(int index);
 unsigned char isButtonMotorOn();
 unsigned char isButtonMotorOff();
 void MotorOn();
@@ -32,8 +28,8 @@ void LockDoor();
 unsigned char CheckPassword();
 void App_PasswordDoor();
 //Chuong trinh Password Door
-unsigned char arrayMapOfNumber [16] = {1,2,3,'A',4,5,6,'B',
-                                       7,8,9,'C','*',0,'E','D'};
+unsigned char arrayMapOfNumber [12] = {1,2,3,4,5,6,
+                                       7,8,9,'*',0,'#'};
 unsigned char arrayMapOfPassword [5][4]= {
   {1,2,3,4},
   {2,7,8,9},
@@ -63,7 +59,9 @@ void main(void)
 	unsigned int k = 0;
 	init_system();
         //TestOutput();
-    
+    lcd_clear();
+    LcdClearS();
+//    UartSendString("Start program.");
 	while (1)
 	{     
 //        if(isButtonEnter()){
@@ -93,10 +91,11 @@ void init_system(void)
     TRISD = 0x00;
     init_lcd();
     LcdClearS();
-      LED = 0x00;
-    init_adc();
+//    init_adc();
     init_interrupt();
-    init_pwm();
+//    init_pwm();
+    init_key_matrix();
+//    init_uart();
     delay_ms(1000);
 //    init_timer0(4695);//dinh thoi 1ms sai so 1%
 //    init_timer1(9390);//dinh thoi 2ms
@@ -104,51 +103,50 @@ void init_system(void)
     SetTimer1_ms(50);
 //    SetTimer2_ms();
 //    SetTimer3_ms(50); //Chu ky thuc hien viec xu ly input,proccess,output
-    init_key_matrix();
 }
 
-void OpenOutput(int index)
-{
-	if (index >= 0 && index <= 7)
-	{
-		LED = LED | arrayMapOfOutput[index];
-	}
+//void OpenOutput(int index)
+//{
+//	if (index >= 0 && index <= 7)
+//	{
+//		LED = LED | arrayMapOfOutput[index];
+//	}
+//
+//}
 
-}
+//void CloseOutput(int index)
+//{
+//	if (index >= 0 && index <= 7)
+//	{
+//		LED = LED & ~arrayMapOfOutput[index];
+//	}
+//}
 
-void CloseOutput(int index)
-{
-	if (index >= 0 && index <= 7)
-	{
-		LED = LED & ~arrayMapOfOutput[index];
-	}
-}
+//void ReverseOutput(int index)
+//{
+//    if (statusOutput[index]  == ON)
+//    {
+//        CloseOutput(index);
+//        statusOutput[index] = OFF;
+//    }
+//    else
+//    {
+//        OpenOutput(index);
+//        statusOutput[index] = ON;
+//    }
+//}
 
-void ReverseOutput(int index)
-{
-    if (statusOutput[index]  == ON)
-    {
-        CloseOutput(index);
-        statusOutput[index] = OFF;
-    }
-    else
-    {
-        OpenOutput(index);
-        statusOutput[index] = ON;
-    }
-}
-
-void TestOutput(void)
-{
-	int k;
-	for (k=0;k<=7 ;k++ )
-	{
-		OpenOutput(k);
-		delay_ms(500);
-		CloseOutput(k);
-		delay_ms(500);
-	}
-}
+//void TestOutput(void)
+//{
+//	int k;
+//	for (k=0;k<=7 ;k++ )
+//	{
+//		OpenOutput(k);
+//		delay_ms(500);
+//		CloseOutput(k);
+//		delay_ms(500);
+//	}
+//}
 unsigned char isButtonMotorOn()
 {
     if (key_code[2] == 1)
@@ -209,9 +207,9 @@ void App_PasswordDoor()
             LcdPrintStringS(1,0,"                ");
             LcdPrintNumS(1,0,ReadValueAdc);
             UnlockDoor();
-            if(ReadValueAdc >= 1000){
-                statusPassword = DOOR_IS_OPEN;
-            }
+//            if(ReadValueAdc >= 1000){
+//                statusPassword = DOOR_IS_OPEN;
+//            }
             // con thieu dieu kien chuyen trang thai
             
             break;
@@ -219,9 +217,9 @@ void App_PasswordDoor()
             LcdPrintStringS(0,0,"OPENING DOOR    ");
             LcdPrintStringS(1,0,"                ");
             LcdPrintNumS(1,0,ReadValueAdc);
-            if(ReadValueAdc < 1000){
-                statusPassword = INIT_SYSTEM;
-            }
+//            if(ReadValueAdc < 1000){
+//                statusPassword = INIT_SYSTEM;
+//            }
             break;
         case WRONG_PASSWORD:
             timeDelay++;
@@ -255,7 +253,7 @@ unsigned char CheckPassword()
 unsigned char isButtonNumber()
 {
     unsigned char i;
-    for (i = 0; i<=15; i++)
+    for (i = 0; i<=11; i++)
         if (key_code[i] == 1)
         {
             numberValue = arrayMapOfNumber[i];
@@ -266,7 +264,7 @@ unsigned char isButtonNumber()
 
 unsigned char isButtonEnter()
 {
-    if (key_code[12] == 1){
+    if (key_code[9] == 1){
         return 1;
     }
     else
@@ -274,12 +272,12 @@ unsigned char isButtonEnter()
 }
 void UnlockDoor()
 {
-    OpenOutput(0);
+//    OpenOutput(0);
     //OpenOutput(4);
 }
 void LockDoor()
 {
-    CloseOutput(0);
+//    CloseOutput(0);
     //CloseOutput(4);
 }
 

@@ -1,5 +1,6 @@
 #include "interrupt.h"
 #include "..\timer\timer.h"
+#include "..\uart\uart.h"
 
 
 unsigned int cnt0 = 0,cnt1 = 0;
@@ -69,8 +70,8 @@ void high_isr(void)
         if(PIR1bits.RCIF == 1) // UART interupt Receive
 	{
 		PIR1bits.RCIF = 0;
+        uart_isr();
 	}
-
         //if(PIR1bits.TXIF == 1) // UART interupt Receive
 }
 

@@ -29,7 +29,7 @@ void main(void)
 
         if(flag_timer1 == 1){
             SetTimer1_ms(50);
-            scan_key_matrix_with_uart();
+            scan_key_matrix();
             openDoorInside();
             openDoorOutside();
             openDoor();
@@ -52,16 +52,13 @@ void delay_ms(int value)
 void init_system(void)
 {
     TRISB = 0x00;		//setup PORTB is output
-//    init_peripheral();
-    TRISD = 0x01;
-    PORTDbits.RD1 = 0;
-    PORTDbits.RD2 = 0;
+    init_peripheral();
     init_lcd();
     LcdClearS();
     init_adc();
     init_interrupt();
     init_uart();
-    init_key_matrix_with_uart();
+    init_key_matrix();
     
     delay_ms(1000);
 //    init_timer0(4695);//dinh thoi 1ms sai so 1%

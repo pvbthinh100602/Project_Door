@@ -1,1 +1,2 @@
-Warning[2058] D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c 73 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c 48 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c 94 : call of function without prototype

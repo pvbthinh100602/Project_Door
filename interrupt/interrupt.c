@@ -41,6 +41,31 @@ void InterruptVectorHigh(void)
 #pragma interruptlow	low_isr
 void low_isr(void)
 {
+    
+            if(PIR1bits.RCIF == 1) // UART interupt Receive
+	{
+		PIR1bits.RCIF = 0;
+                uart_isr();
+	}
+    
+//	if (INTCONbits.T0IF) // timer0
+//	{
+//		stop_timer0();
+//		INTCONbits.T0IF = 0;
+//		start_timer0();
+//		timer0_isr();
+//	}
+//
+//	if (PIR1bits.TMR1IF) // timer1
+//	{
+//		stop_timer1();
+//		PIR1bits.TMR1IF = 0;
+//		start_timer1();	
+//		timer1_isr();
+//	}
+
+	
+
 	if (PIR2bits.TMR3IF) // timer3
 	{
 		stop_timer3();
@@ -49,16 +74,44 @@ void low_isr(void)
 		timer3_isr();
 	}
 
-        if(PIR1bits.RCIF == 1) // UART interupt Receive
+	if (INTCONbits.INT0IF) // ext_interupt0
 	{
-		PIR1bits.RCIF = 0;
+		INTCONbits.INT0IF = 0;
+		//add code here
 	}
+
+
 }
 
 #pragma code
 #pragma interrupt		high_isr
 void high_isr(void)
 {
+    
+    if(PIR1bits.RCIF == 1) // UART interupt Receive
+	{
+		PIR1bits.RCIF = 0;
+                uart_isr();
+	}
+    
+//	if (INTCONbits.T0IF) // timer0
+//	{
+//		stop_timer0();
+//		INTCONbits.T0IF = 0;
+//		start_timer0();
+//		timer0_isr();
+//	}
+//
+//	if (PIR1bits.TMR1IF) // timer1
+//	{
+//		stop_timer1();
+//		PIR1bits.TMR1IF = 0;
+//		start_timer1();	
+//		timer1_isr();
+//	}
+
+	
+
 	if (PIR2bits.TMR3IF) // timer3
 	{
 		stop_timer3();
@@ -67,11 +120,14 @@ void high_isr(void)
 		timer3_isr();
 	}
 
-        if(PIR1bits.RCIF == 1) // UART interupt Receive
+	if (INTCONbits.INT0IF) // ext_interupt0
 	{
-		PIR1bits.RCIF = 0;
-        uart_isr();
+		INTCONbits.INT0IF = 0;
+		//add code here
 	}
+
+
+
         //if(PIR1bits.TXIF == 1) // UART interupt Receive
 }
 

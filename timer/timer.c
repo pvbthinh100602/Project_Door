@@ -6,6 +6,7 @@ unsigned int timer3_value = 0;
 
 //--------------------TIMER0-------------------------
 //--------------------TIMER3-------------------------
+
 void init_timer3(unsigned int count)
 {	
 	T3CONbits.TMR3ON = 0;			// turn off timer 3
@@ -37,6 +38,7 @@ void stop_timer3(void)
 {
 	T3CONbits.TMR3ON = 0;
 }
+
 
 void timer3_isr(void)
 {

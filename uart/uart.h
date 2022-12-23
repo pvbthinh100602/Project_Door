@@ -4,11 +4,13 @@
 #include <p18f4620.h>
 
 extern unsigned char dataReceive;
-
+extern unsigned char buffer[];
+extern int index_buffer;
 void init_uart();
 void uart_putchar(unsigned char data);
-void uart_send_str(const char *str);
-void UartSendString(const rom char *str);
+void uart_send_str(char *str);
+void UartSendString(char *str);
+void UartSendConstString(const rom char *str);
 void UartSendNum(long num);
 void uart_isr();
 

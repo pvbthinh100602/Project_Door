@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=adc/adc.c pwm/pwm.c main.c lcd/lcd.c interrupt/interrupt.c timer/timer.c button_matrix/button.c uart/uart.c
+SOURCEFILES_QUOTED_IF_SPACED=adc/adc.c lcd/lcd.c interrupt/interrupt.c timer/timer.c button_matrix/button.c uart/uart.c fsm_door/fsm_door.c global/global.c rfid/rfid.c password/password.c peripheral/peripheral.c main/main.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/adc/adc.o ${OBJECTDIR}/pwm/pwm.o ${OBJECTDIR}/main.o ${OBJECTDIR}/lcd/lcd.o ${OBJECTDIR}/interrupt/interrupt.o ${OBJECTDIR}/timer/timer.o ${OBJECTDIR}/button_matrix/button.o ${OBJECTDIR}/uart/uart.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/adc/adc.o.d ${OBJECTDIR}/pwm/pwm.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/lcd/lcd.o.d ${OBJECTDIR}/interrupt/interrupt.o.d ${OBJECTDIR}/timer/timer.o.d ${OBJECTDIR}/button_matrix/button.o.d ${OBJECTDIR}/uart/uart.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/adc/adc.o ${OBJECTDIR}/lcd/lcd.o ${OBJECTDIR}/interrupt/interrupt.o ${OBJECTDIR}/timer/timer.o ${OBJECTDIR}/button_matrix/button.o ${OBJECTDIR}/uart/uart.o ${OBJECTDIR}/fsm_door/fsm_door.o ${OBJECTDIR}/global/global.o ${OBJECTDIR}/rfid/rfid.o ${OBJECTDIR}/password/password.o ${OBJECTDIR}/peripheral/peripheral.o ${OBJECTDIR}/main/main.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/adc/adc.o.d ${OBJECTDIR}/lcd/lcd.o.d ${OBJECTDIR}/interrupt/interrupt.o.d ${OBJECTDIR}/timer/timer.o.d ${OBJECTDIR}/button_matrix/button.o.d ${OBJECTDIR}/uart/uart.o.d ${OBJECTDIR}/fsm_door/fsm_door.o.d ${OBJECTDIR}/global/global.o.d ${OBJECTDIR}/rfid/rfid.o.d ${OBJECTDIR}/password/password.o.d ${OBJECTDIR}/peripheral/peripheral.o.d ${OBJECTDIR}/main/main.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/adc/adc.o ${OBJECTDIR}/pwm/pwm.o ${OBJECTDIR}/main.o ${OBJECTDIR}/lcd/lcd.o ${OBJECTDIR}/interrupt/interrupt.o ${OBJECTDIR}/timer/timer.o ${OBJECTDIR}/button_matrix/button.o ${OBJECTDIR}/uart/uart.o
+OBJECTFILES=${OBJECTDIR}/adc/adc.o ${OBJECTDIR}/lcd/lcd.o ${OBJECTDIR}/interrupt/interrupt.o ${OBJECTDIR}/timer/timer.o ${OBJECTDIR}/button_matrix/button.o ${OBJECTDIR}/uart/uart.o ${OBJECTDIR}/fsm_door/fsm_door.o ${OBJECTDIR}/global/global.o ${OBJECTDIR}/rfid/rfid.o ${OBJECTDIR}/password/password.o ${OBJECTDIR}/peripheral/peripheral.o ${OBJECTDIR}/main/main.o
 
 # Source Files
-SOURCEFILES=adc/adc.c pwm/pwm.c main.c lcd/lcd.c interrupt/interrupt.c timer/timer.c button_matrix/button.c uart/uart.c
+SOURCEFILES=adc/adc.c lcd/lcd.c interrupt/interrupt.c timer/timer.c button_matrix/button.c uart/uart.c fsm_door/fsm_door.c global/global.c rfid/rfid.c password/password.c peripheral/peripheral.c main/main.c
 
 
 CFLAGS=
@@ -109,22 +109,6 @@ ${OBJECTDIR}/adc/adc.o: adc/adc.c  nbproject/Makefile-${CND_CONF}.mk
 	@${DEP_GEN} -d ${OBJECTDIR}/adc/adc.o 
 	@${FIXDEPS} "${OBJECTDIR}/adc/adc.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
-${OBJECTDIR}/pwm/pwm.o: pwm/pwm.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/pwm" 
-	@${RM} ${OBJECTDIR}/pwm/pwm.o.d 
-	@${RM} ${OBJECTDIR}/pwm/pwm.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1 -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/pwm/pwm.o   pwm/pwm.c 
-	@${DEP_GEN} -d ${OBJECTDIR}/pwm/pwm.o 
-	@${FIXDEPS} "${OBJECTDIR}/pwm/pwm.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
-	
-${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/main.o.d 
-	@${RM} ${OBJECTDIR}/main.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1 -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/main.o   main.c 
-	@${DEP_GEN} -d ${OBJECTDIR}/main.o 
-	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
-	
 ${OBJECTDIR}/lcd/lcd.o: lcd/lcd.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/lcd" 
 	@${RM} ${OBJECTDIR}/lcd/lcd.o.d 
@@ -165,6 +149,54 @@ ${OBJECTDIR}/uart/uart.o: uart/uart.c  nbproject/Makefile-${CND_CONF}.mk
 	@${DEP_GEN} -d ${OBJECTDIR}/uart/uart.o 
 	@${FIXDEPS} "${OBJECTDIR}/uart/uart.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
+${OBJECTDIR}/fsm_door/fsm_door.o: fsm_door/fsm_door.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/fsm_door" 
+	@${RM} ${OBJECTDIR}/fsm_door/fsm_door.o.d 
+	@${RM} ${OBJECTDIR}/fsm_door/fsm_door.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1 -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/fsm_door/fsm_door.o   fsm_door/fsm_door.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/fsm_door/fsm_door.o 
+	@${FIXDEPS} "${OBJECTDIR}/fsm_door/fsm_door.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/global/global.o: global/global.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/global" 
+	@${RM} ${OBJECTDIR}/global/global.o.d 
+	@${RM} ${OBJECTDIR}/global/global.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1 -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/global/global.o   global/global.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/global/global.o 
+	@${FIXDEPS} "${OBJECTDIR}/global/global.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/rfid/rfid.o: rfid/rfid.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/rfid" 
+	@${RM} ${OBJECTDIR}/rfid/rfid.o.d 
+	@${RM} ${OBJECTDIR}/rfid/rfid.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1 -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/rfid/rfid.o   rfid/rfid.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/rfid/rfid.o 
+	@${FIXDEPS} "${OBJECTDIR}/rfid/rfid.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/password/password.o: password/password.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/password" 
+	@${RM} ${OBJECTDIR}/password/password.o.d 
+	@${RM} ${OBJECTDIR}/password/password.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1 -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/password/password.o   password/password.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/password/password.o 
+	@${FIXDEPS} "${OBJECTDIR}/password/password.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/peripheral/peripheral.o: peripheral/peripheral.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/peripheral" 
+	@${RM} ${OBJECTDIR}/peripheral/peripheral.o.d 
+	@${RM} ${OBJECTDIR}/peripheral/peripheral.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1 -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/peripheral/peripheral.o   peripheral/peripheral.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/peripheral/peripheral.o 
+	@${FIXDEPS} "${OBJECTDIR}/peripheral/peripheral.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/main/main.o: main/main.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/main" 
+	@${RM} ${OBJECTDIR}/main/main.o.d 
+	@${RM} ${OBJECTDIR}/main/main.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1 -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/main/main.o   main/main.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/main/main.o 
+	@${FIXDEPS} "${OBJECTDIR}/main/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
 else
 ${OBJECTDIR}/adc/adc.o: adc/adc.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/adc" 
@@ -173,22 +205,6 @@ ${OBJECTDIR}/adc/adc.o: adc/adc.c  nbproject/Makefile-${CND_CONF}.mk
 	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/adc/adc.o   adc/adc.c 
 	@${DEP_GEN} -d ${OBJECTDIR}/adc/adc.o 
 	@${FIXDEPS} "${OBJECTDIR}/adc/adc.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
-	
-${OBJECTDIR}/pwm/pwm.o: pwm/pwm.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}/pwm" 
-	@${RM} ${OBJECTDIR}/pwm/pwm.o.d 
-	@${RM} ${OBJECTDIR}/pwm/pwm.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/pwm/pwm.o   pwm/pwm.c 
-	@${DEP_GEN} -d ${OBJECTDIR}/pwm/pwm.o 
-	@${FIXDEPS} "${OBJECTDIR}/pwm/pwm.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
-	
-${OBJECTDIR}/main.o: main.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/main.o.d 
-	@${RM} ${OBJECTDIR}/main.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/main.o   main.c 
-	@${DEP_GEN} -d ${OBJECTDIR}/main.o 
-	@${FIXDEPS} "${OBJECTDIR}/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
 ${OBJECTDIR}/lcd/lcd.o: lcd/lcd.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}/lcd" 
@@ -229,6 +245,54 @@ ${OBJECTDIR}/uart/uart.o: uart/uart.c  nbproject/Makefile-${CND_CONF}.mk
 	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/uart/uart.o   uart/uart.c 
 	@${DEP_GEN} -d ${OBJECTDIR}/uart/uart.o 
 	@${FIXDEPS} "${OBJECTDIR}/uart/uart.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/fsm_door/fsm_door.o: fsm_door/fsm_door.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/fsm_door" 
+	@${RM} ${OBJECTDIR}/fsm_door/fsm_door.o.d 
+	@${RM} ${OBJECTDIR}/fsm_door/fsm_door.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/fsm_door/fsm_door.o   fsm_door/fsm_door.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/fsm_door/fsm_door.o 
+	@${FIXDEPS} "${OBJECTDIR}/fsm_door/fsm_door.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/global/global.o: global/global.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/global" 
+	@${RM} ${OBJECTDIR}/global/global.o.d 
+	@${RM} ${OBJECTDIR}/global/global.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/global/global.o   global/global.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/global/global.o 
+	@${FIXDEPS} "${OBJECTDIR}/global/global.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/rfid/rfid.o: rfid/rfid.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/rfid" 
+	@${RM} ${OBJECTDIR}/rfid/rfid.o.d 
+	@${RM} ${OBJECTDIR}/rfid/rfid.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/rfid/rfid.o   rfid/rfid.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/rfid/rfid.o 
+	@${FIXDEPS} "${OBJECTDIR}/rfid/rfid.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/password/password.o: password/password.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/password" 
+	@${RM} ${OBJECTDIR}/password/password.o.d 
+	@${RM} ${OBJECTDIR}/password/password.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/password/password.o   password/password.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/password/password.o 
+	@${FIXDEPS} "${OBJECTDIR}/password/password.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/peripheral/peripheral.o: peripheral/peripheral.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/peripheral" 
+	@${RM} ${OBJECTDIR}/peripheral/peripheral.o.d 
+	@${RM} ${OBJECTDIR}/peripheral/peripheral.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/peripheral/peripheral.o   peripheral/peripheral.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/peripheral/peripheral.o 
+	@${FIXDEPS} "${OBJECTDIR}/peripheral/peripheral.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
+	
+${OBJECTDIR}/main/main.o: main/main.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}/main" 
+	@${RM} ${OBJECTDIR}/main/main.o.d 
+	@${RM} ${OBJECTDIR}/main/main.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -p$(MP_PROCESSOR_OPTION) -ms -oa-  -I ${MP_CC_DIR}\\..\\h  -fo ${OBJECTDIR}/main/main.o   main/main.c 
+	@${DEP_GEN} -d ${OBJECTDIR}/main/main.o 
+	@${FIXDEPS} "${OBJECTDIR}/main/main.o.d" $(SILENT) -rsi ${MP_CC_DIR}../ -c18 
 	
 endif
 

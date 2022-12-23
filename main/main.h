@@ -2,13 +2,7 @@
 #define _MAIN_H_
 
 #include <p18f4620.h>
-#include "timer\timer.h"
-#include "interrupt\interrupt.h"
-#include "button_matrix\button.h"
-#include "lcd\lcd.h"
-#include "adc\adc.h"
-#include "pwm\pwm.h"
-#include "uart\uart.h"
+#include "../global/global.h"
 
 
 #pragma config OSC		= HS

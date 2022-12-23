@@ -2,8 +2,6 @@
 #include "..\timer\timer.h"
 #include "..\lcd\lcd.h"
 
-unsigned char dataReceive;
-
 void init_uart()
 {
 
@@ -40,7 +38,7 @@ void uart_putchar(unsigned char data)
 	PIR1bits.TXIF = 0;
 }
 
-void uart_send_str(const char *str)
+void uart_send_str(char *str)
 {
 	while(*str)
 	{
@@ -49,7 +47,16 @@ void uart_send_str(const char *str)
 	}
 }
 
-void UartSendString(const rom char *str)
+void UartSendString(char *str)
+{
+	while(*str)
+	{
+		uart_putchar(*str);
+		*str++;
+	}
+}
+
+void UartSendConstString(const rom char *str)
 {
 	while(*str)
 	{
@@ -97,12 +104,12 @@ void UartSendNum(long num)
         num %= uart_power_of(10, i-1);
     }
 }
-
+unsigned char tempReceive = 0;
+unsigned char buffer[14];
+int index_buffer = 0;
 void uart_isr()
 {
-    unsigned char tempReceive;
     tempReceive = RCREG;
-    LcdPrintStringS(1,0,"   ");
-    LcdPrintNumS(1,0,tempReceive);
+    if(index_buffer < 14) buffer[index_buffer++] = tempReceive;
 }
 

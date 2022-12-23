@@ -3,10 +3,10 @@
 
 #include <p18f4620.h>
 
-#define PORT_BUTTON		PORTA
-#define TRIS_BUTTON		TRISA
-#define	MAX_COL			3
-#define MAX_ROW			4
+#define PORT_BUTTON		PORTC
+#define TRIS_BUTTON		TRISC
+#define	MAX_COL			4
+#define MAX_ROW			2
 
 extern unsigned int key_code[];
 

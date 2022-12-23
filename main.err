@@ -1,17 +1,14 @@
-Warning[2058] D:\MPLABProjects\SmartDoor.X\main.c 62 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\main.c 63 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\main.c 72 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\main.c 74 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\main.c 92 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\main.c 93 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\main.c 97 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\main.c 171 : suspicious pointer conversion
-Warning[2054] D:\MPLABProjects\SmartDoor.X\main.c 172 : suspicious pointer conversion
-Warning[2054] D:\MPLABProjects\SmartDoor.X\main.c 182 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\main.c 184 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\main.c 186 : suspicious pointer conversion
-Warning[2054] D:\MPLABProjects\SmartDoor.X\main.c 206 : suspicious pointer conversion
-Warning[2054] D:\MPLABProjects\SmartDoor.X\main.c 207 : suspicious pointer conversion
-Warning[2054] D:\MPLABProjects\SmartDoor.X\main.c 217 : suspicious pointer conversion
-Warning[2054] D:\MPLABProjects\SmartDoor.X\main.c 218 : suspicious pointer conversion
-Warning[2054] D:\MPLABProjects\SmartDoor.X\main.c 226 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 22 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 23 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 32 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 33 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 34 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 35 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 36 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 37 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 38 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 39 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 59 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 60 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 63 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\main\main.c 64 : call of function without prototype

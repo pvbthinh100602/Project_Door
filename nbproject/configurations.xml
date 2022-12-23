@@ -4,14 +4,18 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>adc/adc.h</itemPath>
-      <itemPath>pwm/pwm.h</itemPath>
-      <itemPath>main.h</itemPath>
       <itemPath>button_matrix/button.h</itemPath>
       <itemPath>interrupt/interrupt.h</itemPath>
       <itemPath>timer/timer.h</itemPath>
       <itemPath>lcd/lcd.h</itemPath>
       <itemPath>uart/uart.h</itemPath>
+      <itemPath>fsm_door/fsm_door.h</itemPath>
+      <itemPath>rfid/rfid.h</itemPath>
+      <itemPath>password/password.h</itemPath>
+      <itemPath>peripheral/peripheral.h</itemPath>
+      <itemPath>global/global.h</itemPath>
+      <itemPath>adc/adc.h</itemPath>
+      <itemPath>main/main.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -21,13 +25,17 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>adc/adc.c</itemPath>
-      <itemPath>pwm/pwm.c</itemPath>
-      <itemPath>main.c</itemPath>
       <itemPath>lcd/lcd.c</itemPath>
       <itemPath>interrupt/interrupt.c</itemPath>
       <itemPath>timer/timer.c</itemPath>
       <itemPath>button_matrix/button.c</itemPath>
       <itemPath>uart/uart.c</itemPath>
+      <itemPath>fsm_door/fsm_door.c</itemPath>
+      <itemPath>global/global.c</itemPath>
+      <itemPath>rfid/rfid.c</itemPath>
+      <itemPath>password/password.c</itemPath>
+      <itemPath>peripheral/peripheral.c</itemPath>
+      <itemPath>main/main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -47,6 +55,8 @@
     <Elem>timer</Elem>
     <Elem>button_matrix</Elem>
     <Elem>uart</Elem>
+    <Elem>global</Elem>
+    <Elem>main</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>

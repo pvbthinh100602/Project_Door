@@ -3,58 +3,59 @@ Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 13 : call of func
 Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 28 : call of function without prototype
 Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 33 : suspicious pointer conversion
 Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 34 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 40 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 42 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 46 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 46 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 48 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 55 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 57 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 62 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 65 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 67 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 73 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 79 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 82 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 87 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 92 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 95 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 97 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 101 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 102 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 103 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 107 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 112 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 113 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 117 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 119 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 132 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 137 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 35 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 41 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 43 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 47 : call of function without prototype
+Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 47 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 49 : call of function without prototype
+Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 56 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 58 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 63 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 66 : call of function without prototype
+Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 68 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 74 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 80 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 83 : call of function without prototype
+Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 88 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 93 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 96 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 98 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 102 : call of function without prototype
+Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 103 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 104 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 108 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 113 : call of function without prototype
+Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 114 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 118 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 120 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 133 : call of function without prototype
 Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 138 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 139 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 142 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 146 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 146 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 148 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 153 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 155 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 161 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 164 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 166 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 172 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 179 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 182 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 186 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 188 : call of function without prototype
+Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 139 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 140 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 143 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 147 : call of function without prototype
+Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 147 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 149 : call of function without prototype
+Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 154 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 156 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 162 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 165 : call of function without prototype
+Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 167 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 173 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 180 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 183 : call of function without prototype
+Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 187 : suspicious pointer conversion
 Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 189 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 192 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 195 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 197 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 199 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 203 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 204 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 206 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 211 : call of function without prototype
-Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 212 : suspicious pointer conversion
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 217 : call of function without prototype
-Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 219 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 190 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 193 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 196 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 198 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 200 : call of function without prototype
+Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 204 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 205 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 207 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 212 : call of function without prototype
+Warning[2054] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 213 : suspicious pointer conversion
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 218 : call of function without prototype
+Warning[2058] D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c 220 : call of function without prototype

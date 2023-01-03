@@ -21,7 +21,7 @@ void fsm_switch_mode_run(){
 
 void fsm_door_mode1_run()
 {
-    if(mode == MODE2) return;
+    if(mode != MODE1) return;
     switch (statusDoor)
     {
         case INIT_SYSTEM:
@@ -32,6 +32,7 @@ void fsm_door_mode1_run()
         case LOCK_DOOR:
             LcdPrintStringS(0,0,"LOCKING         ");
             LcdPrintStringS(1,0,"MODE1           ");
+            if(timeDelay > 10) buzzerOff();
             if(timeDelay < 20){
                 index_buffer = 0;
                 timeDelay ++;
@@ -69,7 +70,7 @@ void fsm_door_mode1_run()
                 indexOfNumber ++;
                 timeDelay = 0;
             }
-            if (indexOfNumber >= 4){
+            if (indexOfNumber >= 6){
                 if (CheckPassword()){
                     statusDoor = UNLOCK_DOOR;
                     isLock = 0;
@@ -125,7 +126,7 @@ void fsm_door_mode1_run()
 }
 
 void fsm_door_mode2_run(){
-    if(mode == MODE1) return;
+    if(mode != MODE2) return;
     switch (statusDoor)
     {
         case INIT_SYSTEM:
@@ -168,7 +169,7 @@ void fsm_door_mode2_run(){
                 indexOfNumber ++;
                 timeDelay = 0;
             }
-            if (indexOfNumber >= 4){
+            if (indexOfNumber >= 6){
                 if (CheckPassword()){
                     statusDoor = UNLOCK_DOOR;
                     index_buffer = 0;
@@ -189,7 +190,7 @@ void fsm_door_mode2_run(){
             if(check_rfid() == 1 && rfid_index == admin_index){
                 statusDoor = LOCK_DOOR;
                 isLock = 1;
-                buzzerOff();
+                buzzerOn();
                 timeDelay = 0;
                 mode = MODE1;
                 LcdClearS();

@@ -21,12 +21,9 @@ void main(void)
 	init_system();
     lcd_clear();
     LcdClearS();
-    srand(0);
+    srand(get_adc_value(2));
 	while (1)
 	{     
-        if(seed != INT_MAX) seed = 0;
-        else seed++;
-
         if(flag_timer1 == 1){
             SetTimer1_ms(50);
             scan_key_matrix();
@@ -51,7 +48,7 @@ void delay_ms(int value)
 
 void init_system(void)
 {
-    TRISB = 0x00;		//setup PORTB is output
+    TRISB = 0x00;
     init_peripheral();
     init_lcd();
     LcdClearS();

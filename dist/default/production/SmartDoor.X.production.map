@@ -1,5 +1,5 @@
 MPLINK 4.48, Linker
-Linker Map File - Created Fri Dec 23 16:39:28 2022
+Linker Map File - Created Tue Jan 03 12:44:20 2023
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -20,55 +20,55 @@ Linker Map File - Created Fri Dec 23 16:39:28 2022
        InterruptVectorLow       code   0x000018    program   0x000006
                    .cinit    romdata   0x00001e    program   0x000086
               .code_lcd.o       code   0x0000a4    program   0x000e20
-         .code_fsm_door.o       code   0x000ec4    program   0x00051a
-             .code_uart.o       code   0x0013de    program   0x0004da
-             .code_rfid.o       code   0x0018b8    program   0x00036c
-            .code_timer.o       code   0x001c24    program   0x000258
-           .code_button.o       code   0x001e7c    program   0x000254
-        .code_interrupt.o       code   0x0020d0    program   0x000188
-             .code_main.o       code   0x002258    program   0x00013c
-       .code_peripheral.o       code   0x002394    program   0x000118
-         .code_password.o       code   0x0024ac    program   0x0000e8
-                     PROG       code   0x002594    program   0x0000e2
-               _cinit_scn       code   0x002676    program   0x00009e
-             .stringtable    romdata   0x002714    program   0x00008f
-    .romdata_peripheral.o    romdata   0x0027a3    program   0x000000
-          .idata_main.o_i    romdata   0x0027a3    program   0x000000
-          .romdata_main.o    romdata   0x0027a3    program   0x000000
-      .romdata_fxd1616u.o    romdata   0x0027a3    program   0x000000
-      .idata_fxd2424u.o_i    romdata   0x0027a3    program   0x000000
-      .romdata_fxd2424u.o    romdata   0x0027a3    program   0x000000
-      .romdata_fxd3232u.o    romdata   0x0027a3    program   0x000000
-       .idata_fxm3232.o_i    romdata   0x0027a3    program   0x000000
-       .romdata_fxm3232.o    romdata   0x0027a3    program   0x000000
-           .romdata_adc.o    romdata   0x0027a3    program   0x000000
-        .romdata___init.o    romdata   0x0027a3    program   0x000000
-         .romdata_c018i.o    romdata   0x0027a3    program   0x000000
-        .romdata_global.o    romdata   0x0027a3    program   0x000000
-           .romdata_lcd.o    romdata   0x0027a3    program   0x000000
-      .romdata_fsm_door.o    romdata   0x0027a3    program   0x000000
-      .idata_fsm_door.o_i    romdata   0x0027a3    program   0x000001
-          .romdata_uart.o    romdata   0x0027a3    program   0x000000
-        .romdata_button.o    romdata   0x0027a3    program   0x000000
-         .romdata_timer.o    romdata   0x0027a3    program   0x000000
-          .romdata_rfid.o    romdata   0x0027a3    program   0x000000
-      .romdata_password.o    romdata   0x0027a3    program   0x000000
-     .romdata_interrupt.o    romdata   0x0027a3    program   0x000000
-              .code_adc.o       code   0x0027a4    program   0x00008c
-          .code_fxm3232.o       code   0x002830    program   0x000070
-         .code_fxd3232u.o       code   0x0028a0    program   0x000048
-                   STDLIB       code   0x0028e8    program   0x00003c
-         .code_fxd2424u.o       code   0x002924    program   0x00003a
-         .code_fxd1616u.o       code   0x00295e    program   0x00002c
-                    .code       code   0x00298a    program   0x000020
-             _startup_scn       code   0x0029aa    program   0x00001c
-         .idata_timer.o_i    romdata   0x0029c6    program   0x00000b
-          .idata_rfid.o_i    romdata   0x0029d1    program   0x000017
-    .idata_peripheral.o_i    romdata   0x0029e8    program   0x000012
-      .idata_password.o_i    romdata   0x0029fa    program   0x000008
-           .idata_lcd.o_i    romdata   0x002a02    program   0x000061
-        .idata_global.o_i    romdata   0x002a63    program   0x000002
-        .idata_button.o_i    romdata   0x002a65    program   0x000040
+         .code_fsm_door.o       code   0x000ec4    program   0x000526
+             .code_uart.o       code   0x0013ea    program   0x0004da
+             .code_rfid.o       code   0x0018c4    program   0x000346
+            .code_timer.o       code   0x001c0a    program   0x000258
+           .code_button.o       code   0x001e62    program   0x000254
+        .code_interrupt.o       code   0x0020b6    program   0x000188
+             .code_main.o       code   0x00223e    program   0x000136
+       .code_peripheral.o       code   0x002374    program   0x000118
+                     PROG       code   0x00248c    program   0x0000e2
+         .code_password.o       code   0x00256e    program   0x0000e0
+               _cinit_scn       code   0x00264e    program   0x00009e
+             .stringtable    romdata   0x0026ec    program   0x00008f
+    .romdata_peripheral.o    romdata   0x00277b    program   0x000000
+          .idata_main.o_i    romdata   0x00277b    program   0x000000
+          .romdata_main.o    romdata   0x00277b    program   0x000000
+      .romdata_fxd1616u.o    romdata   0x00277b    program   0x000000
+      .idata_fxd2424u.o_i    romdata   0x00277b    program   0x000000
+      .romdata_fxd2424u.o    romdata   0x00277b    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x00277b    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x00277b    program   0x000000
+       .romdata_fxm3232.o    romdata   0x00277b    program   0x000000
+           .romdata_adc.o    romdata   0x00277b    program   0x000000
+        .romdata___init.o    romdata   0x00277b    program   0x000000
+         .romdata_c018i.o    romdata   0x00277b    program   0x000000
+        .romdata_global.o    romdata   0x00277b    program   0x000000
+           .romdata_lcd.o    romdata   0x00277b    program   0x000000
+      .romdata_fsm_door.o    romdata   0x00277b    program   0x000000
+      .idata_fsm_door.o_i    romdata   0x00277b    program   0x000001
+          .romdata_uart.o    romdata   0x00277b    program   0x000000
+        .romdata_button.o    romdata   0x00277b    program   0x000000
+         .romdata_timer.o    romdata   0x00277b    program   0x000000
+          .romdata_rfid.o    romdata   0x00277b    program   0x000000
+      .romdata_password.o    romdata   0x00277b    program   0x000000
+     .romdata_interrupt.o    romdata   0x00277b    program   0x000000
+              .code_adc.o       code   0x00277c    program   0x00008c
+          .code_fxm3232.o       code   0x002808    program   0x000070
+         .code_fxd3232u.o       code   0x002878    program   0x000048
+                   STDLIB       code   0x0028c0    program   0x00003c
+         .code_fxd2424u.o       code   0x0028fc    program   0x00003a
+         .code_fxd1616u.o       code   0x002936    program   0x00002c
+                    .code       code   0x002962    program   0x000020
+             _startup_scn       code   0x002982    program   0x00001c
+         .idata_timer.o_i    romdata   0x00299e    program   0x00000b
+          .idata_rfid.o_i    romdata   0x0029a9    program   0x000017
+    .idata_peripheral.o_i    romdata   0x0029c0    program   0x000012
+      .idata_password.o_i    romdata   0x0029d2    program   0x000008
+           .idata_lcd.o_i    romdata   0x0029da    program   0x000061
+        .idata_global.o_i    romdata   0x002a3b    program   0x000002
+        .idata_button.o_i    romdata   0x002a3d    program   0x000040
     .config_300001_main.o    romdata   0x300001    program   0x000001
     .config_300002_main.o    romdata   0x300002    program   0x000001
     .config_300003_main.o    romdata   0x300003    program   0x000001
@@ -86,40 +86,40 @@ Linker Map File - Created Fri Dec 23 16:39:28 2022
             .idata_rfid.o      idata   0x0000e1       data   0x000017
         .idata_password.o      idata   0x0000f8       data   0x000008
        .idata_interrupt.o      idata   0x000100       data   0x000004
-                SEED_DATA      idata   0x000104       data   0x000002
-          .idata_global.o      idata   0x000106       data   0x000002
-        .idata_fsm_door.o      idata   0x000108       data   0x000001
-      .udata_peripheral.o      udata   0x000109       data   0x000000
-            .udata_main.o      udata   0x000109       data   0x000000
-            .idata_main.o      idata   0x000109       data   0x000000
-        .udata_fxd1616u.o      udata   0x000109       data   0x000000
-        .idata_fxd1616u.o      idata   0x000109       data   0x000000
-        .udata_fxd2424u.o      udata   0x000109       data   0x000000
-        .idata_fxd2424u.o      idata   0x000109       data   0x000000
-        .udata_fxd3232u.o      udata   0x000109       data   0x000000
-        .idata_fxd3232u.o      idata   0x000109       data   0x000000
-          .idata___init.o      idata   0x000109       data   0x000000
-         .udata_fxm3232.o      udata   0x000109       data   0x000000
-         .idata_fxm3232.o      idata   0x000109       data   0x000000
-          .udata___init.o      udata   0x000109       data   0x000000
-            .udata_rfid.o      udata   0x000109       data   0x000000
-          .udata_global.o      udata   0x000109       data   0x000000
-           .idata_c018i.o      idata   0x000109       data   0x000000
-        .udata_fsm_door.o      udata   0x000109       data   0x000000
-             .udata_adc.o      udata   0x000109       data   0x000000
-             .idata_adc.o      idata   0x000109       data   0x000000
-       .udata_interrupt.o      udata   0x000109       data   0x000000
-           .udata_timer.o      udata   0x000109       data   0x000000
-          .udata_button.o      udata   0x000109       data   0x000000
+            .idata_uart.o      idata   0x000104       data   0x000003
+                SEED_DATA      idata   0x000107       data   0x000002
+          .idata_global.o      idata   0x000109       data   0x000002
+      .udata_peripheral.o      udata   0x00010b       data   0x000000
+            .udata_main.o      udata   0x00010b       data   0x000000
+            .idata_main.o      idata   0x00010b       data   0x000000
+        .udata_fxd1616u.o      udata   0x00010b       data   0x000000
+        .idata_fxd1616u.o      idata   0x00010b       data   0x000000
+        .udata_fxd2424u.o      udata   0x00010b       data   0x000000
+        .idata_fxd2424u.o      idata   0x00010b       data   0x000000
+        .udata_fxd3232u.o      udata   0x00010b       data   0x000000
+        .idata_fxd3232u.o      idata   0x00010b       data   0x000000
+          .idata___init.o      idata   0x00010b       data   0x000000
+         .udata_fxm3232.o      udata   0x00010b       data   0x000000
+         .idata_fxm3232.o      idata   0x00010b       data   0x000000
+          .udata___init.o      udata   0x00010b       data   0x000000
+            .udata_rfid.o      udata   0x00010b       data   0x000000
+          .udata_global.o      udata   0x00010b       data   0x000000
+           .idata_c018i.o      idata   0x00010b       data   0x000000
+             .udata_adc.o      udata   0x00010b       data   0x000000
+        .udata_fsm_door.o      udata   0x00010b       data   0x000000
+             .idata_adc.o      idata   0x00010b       data   0x000000
+       .udata_interrupt.o      udata   0x00010b       data   0x000000
+           .udata_timer.o      udata   0x00010b       data   0x000000
+          .udata_button.o      udata   0x00010b       data   0x000000
                    .stack      udata   0x000e00       data   0x000100
           .idata_button.o      idata   0x000f00       data   0x000040
       .idata_peripheral.o      idata   0x000f40       data   0x000012
             .udata_uart.o      udata   0x000f52       data   0x00000e
            .idata_timer.o      idata   0x000f60       data   0x00000b
            .udata_c018i.o      udata   0x000f6b       data   0x00000a
-        .udata_password.o      udata   0x000f75       data   0x000004
-             .udata_lcd.o      udata   0x000f79       data   0x000004
-            .idata_uart.o      idata   0x000f7d       data   0x000003
+        .udata_password.o      udata   0x000f75       data   0x000006
+             .udata_lcd.o      udata   0x000f7b       data   0x000004
+        .idata_fsm_door.o      idata   0x000f7f       data   0x000001
             SFR_UNBANKED0      udata   0x000f80       data   0x000080
 
 
@@ -128,38 +128,38 @@ Linker Map File - Created Fri Dec 23 16:39:28 2022
                                Start         End      
                            ---------   ---------      
                             0x000000    0x000016      
-                            0x000018    0x002aa4      
+                            0x000018    0x002a7c      
                             0x300001    0x300003      
                             0x300005    0x300006      
                             0x300008    0x30000d      
-            10927 out of 66584 program addresses used, program memory utilization is 16%
+            10887 out of 66584 program addresses used, program memory utilization is 16%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-            CheckPassword   0x0024ac    program     extern D:\MPLABProjects\SmartDoor.X\password\password.c
-                   D1616S   0x0025b6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x0025c4    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x0025c0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x0025d6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                   D2424S   0x00260a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                D2424SNEG   0x002618    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                 D2424SOK   0x002614    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                  D2424SX   0x002630    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                  DA1616S   0x0025a6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  DA2424S   0x0025f6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+            CheckPassword   0x00256e    program     extern D:\MPLABProjects\SmartDoor.X\password\password.c
+                   D1616S   0x0024ae    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x0024bc    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x0024b8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x0024ce    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                   D2424S   0x002502    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                D2424SNEG   0x002510    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                 D2424SOK   0x00250c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                  D2424SX   0x002528    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                  DA1616S   0x00249e    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA2424S   0x0024ee    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
          DisplayLcdScreen   0x0009e2    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
         DisplayLcdScreen2   0x000ada    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
       DisplayLcdScreenOld   0x000b60    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
-                 FXD1616S   0x002594    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 FXD1616U   0x00295e    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                 FXD2424S   0x0025e0    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                 FXD2424U   0x002924    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424u.c
-                 FXD3232U   0x0028a0    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                 FXM1616U   0x00263a    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
-                  FXM3232   0x002830    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+                 FXD1616S   0x00248c    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 FXD1616U   0x002936    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                 FXD2424S   0x0024d8    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                 FXD2424U   0x0028fc    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424u.c
+                 FXD3232U   0x002878    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                 FXM1616U   0x002532    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
+                  FXM3232   0x002808    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
       InterruptVectorHigh   0x000008    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
        InterruptVectorLow   0x000018    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
                 LcdClearS   0x000984    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
@@ -168,19 +168,19 @@ Linker Map File - Created Fri Dec 23 16:39:28 2022
              LcdPrintNumS   0x000c20    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
            LcdPrintString   0x00090a    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
           LcdPrintStringS   0x000e6e    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
-             SetTimer1_ms   0x001e08    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-             SetTimer2_ms   0x001dce    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-             SetTimer3_ms   0x001e42    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-      UartSendConstString   0x001520    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-              UartSendNum   0x00164e    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-           UartSendString   0x0014e0    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-       ___return_lbl00000   0x00289e    program     static                          
+             SetTimer1_ms   0x001dee    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+             SetTimer2_ms   0x001db4    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+             SetTimer3_ms   0x001e28    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+      UartSendConstString   0x00152c    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+              UartSendNum   0x00165a    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+           UartSendString   0x0014ec    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+       ___return_lbl00000   0x002876    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x002988    program     static                          
-       ___return_lbl00000   0x0028e6    program     static                          
-       ___return_lbl00000   0x00295c    program     static                          
-       ___return_lbl00001   0x0029c4    program     static                          
-       ___return_lbl00002   0x002712    program     static                          
+       ___return_lbl00000   0x002960    program     static                          
+       ___return_lbl00000   0x0028be    program     static                          
+       ___return_lbl00000   0x002934    program     static                          
+       ___return_lbl00001   0x00299c    program     static                          
+       ___return_lbl00002   0x0026ea    program     static                          
        ___return_lbl00002   0x00001c    program     static                          
        ___return_lbl00003   0x00000c    program     static                          
                __config_0   0x300001    program     static D:\MPLABProjects\SmartDoor.X\main\main.c
@@ -195,52 +195,52 @@ Linker Map File - Created Fri Dec 23 16:39:28 2022
                __config_8   0x30000b    program     static D:\MPLABProjects\SmartDoor.X\main\main.c
                __config_9   0x30000c    program     static D:\MPLABProjects\SmartDoor.X\main\main.c
                    __init   0x000006    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
-               __string_0   0x002792    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_1   0x002781    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_2   0x002777    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_3   0x00276b    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_4   0x00275a    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_5   0x002758    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_6   0x002747    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_7   0x002736    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_8   0x002725    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_9   0x002714    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-            __zero_memory   0x00298a    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                _do_cinit   0x002676    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               __string_0   0x00276a    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_1   0x002759    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_2   0x00274f    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_3   0x002743    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_4   0x002732    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_5   0x002730    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_6   0x00271f    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_7   0x00270e    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_8   0x0026fd    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_9   0x0026ec    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+            __zero_memory   0x002962    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                _do_cinit   0x00264e    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                   _false   0x0028e2    program     static                          
-                   _false   0x002958    program     static                          
-                 _startup   0x0029aa    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                buzzerOff   0x0024a8    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-                 buzzerOn   0x0024a4    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-               check_rfid   0x0018b8    program     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
-                compare_l   0x0029a0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                copy_loop   0x0026e8    program     static                          
-            copy_one_byte   0x0026ee    program     static                          
-                 delay_ms   0x0022c0    program     extern D:\MPLABProjects\SmartDoor.X\main\main.c
-                     done   0x002712    program     static                          
-             done_copying   0x0026fc    program     static                          
-                  endloop   0x002984    program     static                          
+                   _false   0x0028ba    program     static                          
+                   _false   0x002930    program     static                          
+                 _startup   0x002982    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                buzzerOff   0x002488    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+                 buzzerOn   0x002484    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+               check_rfid   0x0018c4    program     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
+                compare_l   0x002978    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                copy_loop   0x0026c0    program     static                          
+            copy_one_byte   0x0026c6    program     static                          
+                 delay_ms   0x0022a0    program     extern D:\MPLABProjects\SmartDoor.X\main\main.c
+                     done   0x0026ea    program     static                          
+             done_copying   0x0026d4    program     static                          
+                  endloop   0x00295c    program     static                          
        fsm_door_mode1_run   0x000efa    program     extern D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-       fsm_door_mode2_run   0x001156    program     extern D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+       fsm_door_mode2_run   0x001160    program     extern D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
       fsm_switch_mode_run   0x000ec4    program     extern D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-            generate_pass   0x0024f4    program     extern D:\MPLABProjects\SmartDoor.X\password\password.c
-            get_adc_value   0x0027b2    program     extern D:\MPLABProjects\SmartDoor.X\adc\adc.c
-                 hexstr2l   0x001a7e    program     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
-                 high_isr   0x0021a6    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
-                 init_adc   0x0027a4    program     extern D:\MPLABProjects\SmartDoor.X\adc\adc.c
-            init_ext_int0   0x0020d8    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
-           init_interrupt   0x0020d0    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
-          init_key_matrix   0x001e7c    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
-init_key_matrix_with_uart   0x001e84    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
+            generate_pass   0x0025b6    program     extern D:\MPLABProjects\SmartDoor.X\password\password.c
+            get_adc_value   0x00278a    program     extern D:\MPLABProjects\SmartDoor.X\adc\adc.c
+                 hexstr2l   0x001a64    program     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
+                 high_isr   0x00218c    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
+                 init_adc   0x00277c    program     extern D:\MPLABProjects\SmartDoor.X\adc\adc.c
+            init_ext_int0   0x0020be    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
+           init_interrupt   0x0020b6    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
+          init_key_matrix   0x001e62    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
+init_key_matrix_with_uart   0x001e6a    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
                  init_lcd   0x000244    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
-          init_peripheral   0x002394    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-              init_system   0x002348    program     extern D:\MPLABProjects\SmartDoor.X\main\main.c
-              init_timer3   0x001c24    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-                init_uart   0x0013de    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-            isButtonEnter   0x00242a    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-           isButtonNumber   0x0023a6    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-               isDoorOpen   0x0023a0    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+          init_peripheral   0x002374    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+              init_system   0x002328    program     extern D:\MPLABProjects\SmartDoor.X\main\main.c
+              init_timer3   0x001c0a    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+                init_uart   0x0013ea    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+            isButtonEnter   0x00240a    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+           isButtonNumber   0x002386    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+               isDoorOpen   0x002380    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
                 lcd_clear   0x000596    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
                 lcd_delay   0x0000a4    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
              lcd_power_of   0x0005aa    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
@@ -256,32 +256,32 @@ init_key_matrix_with_uart   0x001e84    program     extern D:\MPLABProjects\Smar
           lcd_write_4bits   0x000428    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
             lcd_write_cmd   0x00046e    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
            lcd_write_data   0x0004aa    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
-                     loop   0x002930    program     static                          
-                     loop   0x002968    program     static                          
-                     loop   0x0028ae    program     static                          
-                     loop   0x0029ba    program     static                          
-                   loop_h   0x002998    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                   loop_l   0x0029a2    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                  low_isr   0x0020e0    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
-                     main   0x002258    program     extern D:\MPLABProjects\SmartDoor.X\main\main.c
-                 openDoor   0x00243a    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-           openDoorInside   0x00244c    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-          openDoorOutside   0x002474    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-                     rand   0x0028f6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
-          scan_key_matrix   0x001e96    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
-scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
-                    srand   0x0028e8    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
-             start_timer3   0x001cda    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-              stop_timer3   0x001d66    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-                     test   0x002690    program     static                          
-               timer3_isr   0x001d6a    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-            uart_delay_ms   0x0013fc    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-                 uart_isr   0x001884    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-            uart_power_of   0x00156c    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-             uart_putchar   0x001484    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-            uart_send_str   0x0014a0    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+                     loop   0x002908    program     static                          
+                     loop   0x002940    program     static                          
+                     loop   0x002886    program     static                          
+                     loop   0x002992    program     static                          
+                   loop_h   0x002970    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   loop_l   0x00297a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  low_isr   0x0020c6    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
+                     main   0x00223e    program     extern D:\MPLABProjects\SmartDoor.X\main\main.c
+                 openDoor   0x00241a    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+           openDoorInside   0x00242c    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+          openDoorOutside   0x002454    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+                     rand   0x0028ce    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+          scan_key_matrix   0x001e7c    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
+scan_key_matrix_with_uart   0x001f94    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
+                    srand   0x0028c0    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+             start_timer3   0x001cc0    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+              stop_timer3   0x001d4c    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+                     test   0x002668    program     static                          
+               timer3_isr   0x001d50    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+            uart_delay_ms   0x001408    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+                 uart_isr   0x001890    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+            uart_power_of   0x001578    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+             uart_putchar   0x001490    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+            uart_send_str   0x0014ac    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
                  v_timer0   0x000134    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
-               zero_block   0x002998    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               zero_block   0x002970    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                    ADCON0   0x000fc2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                ADCON0bits   0x000fc2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                    ADCON1   0x000fc1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
@@ -430,7 +430,7 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
                STATUSbits   0x000fd8       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                    STKPTR   0x000ffc       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                STKPTRbits   0x000ffc       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                     Seed   0x000104       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+                     Seed   0x000107       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
                     T0CON   0x000fd5       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                 T0CONbits   0x000fd5       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                     T1CON   0x000fcd       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
@@ -519,8 +519,8 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
                      cnt1   0x000102       data     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
                 curr_byte   0x000f6e       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                curr_entry   0x000f70       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-              current_col   0x000f7b       data     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
-              current_row   0x000f79       data     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
+              current_col   0x000f7d       data     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
+              current_row   0x000f7b       data     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
                  data_ptr   0x000f72       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                 debounce1   0x000f18       data     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
                 debounce2   0x000f28       data     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
@@ -529,12 +529,12 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
               flag_timer3   0x000f62       data     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
                      head   0x0000e1       data     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
             indexOfNumber   0x0000f8       data     extern D:\MPLABProjects\SmartDoor.X\password\password.c
-             index_buffer   0x000f7e       data     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+             index_buffer   0x000105       data     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
          isDoorOpenInside   0x000f50       data     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
         isDoorOpenOutside   0x000f51       data     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
                    isLock   0x000f4e       data     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
                  key_code   0x000f00       data     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
-                     mode   0x000107       data     extern D:\MPLABProjects\SmartDoor.X\global\global.c
+                     mode   0x00010a       data     extern D:\MPLABProjects\SmartDoor.X\global\global.c
              msg_checksum   0x0000e7       data     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
                   msg_tag   0x0000e5       data     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
               msg_version   0x0000e3       data     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
@@ -542,13 +542,12 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
                      pass   0x0000f9       data     extern D:\MPLABProjects\SmartDoor.X\password\password.c
                      prom   0x000f6b       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                rfid_index   0x0000f6       data     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
-                     seed   0x0000fe       data     extern D:\MPLABProjects\SmartDoor.X\password\password.c
-               statusDoor   0x000106       data     extern D:\MPLABProjects\SmartDoor.X\global\global.c
+               statusDoor   0x000109       data     extern D:\MPLABProjects\SmartDoor.X\global\global.c
                 statusLCD   0x0000c0       data     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
                    tag_id   0x0000ea       data     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
                      tail   0x0000e9       data     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
-              tempReceive   0x000f7d       data     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-                timeDelay   0x000108       data     extern D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+              tempReceive   0x000104       data     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+                timeDelay   0x000f7f       data     extern D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
                timer1_cnt   0x000f63       data     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
                timer2_cnt   0x000f65       data     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
                timer3_cnt   0x000f67       data     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
@@ -594,103 +593,103 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
           LcdPrintStringS   0x000e6e    program     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
       fsm_switch_mode_run   0x000ec4    program     extern D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
        fsm_door_mode1_run   0x000efa    program     extern D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-       fsm_door_mode2_run   0x001156    program     extern D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-                init_uart   0x0013de    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-            uart_delay_ms   0x0013fc    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-             uart_putchar   0x001484    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-            uart_send_str   0x0014a0    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-           UartSendString   0x0014e0    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-      UartSendConstString   0x001520    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-            uart_power_of   0x00156c    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-              UartSendNum   0x00164e    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-                 uart_isr   0x001884    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-               check_rfid   0x0018b8    program     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
-                 hexstr2l   0x001a7e    program     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
-              init_timer3   0x001c24    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-             start_timer3   0x001cda    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-              stop_timer3   0x001d66    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-               timer3_isr   0x001d6a    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-             SetTimer2_ms   0x001dce    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-             SetTimer1_ms   0x001e08    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-             SetTimer3_ms   0x001e42    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
-          init_key_matrix   0x001e7c    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
-init_key_matrix_with_uart   0x001e84    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
-          scan_key_matrix   0x001e96    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
-scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
-           init_interrupt   0x0020d0    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
-            init_ext_int0   0x0020d8    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
-                  low_isr   0x0020e0    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
-                 high_isr   0x0021a6    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
-                     main   0x002258    program     extern D:\MPLABProjects\SmartDoor.X\main\main.c
-                 delay_ms   0x0022c0    program     extern D:\MPLABProjects\SmartDoor.X\main\main.c
-              init_system   0x002348    program     extern D:\MPLABProjects\SmartDoor.X\main\main.c
-          init_peripheral   0x002394    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-               isDoorOpen   0x0023a0    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-           isButtonNumber   0x0023a6    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-            isButtonEnter   0x00242a    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-                 openDoor   0x00243a    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-           openDoorInside   0x00244c    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-          openDoorOutside   0x002474    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-                 buzzerOn   0x0024a4    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-                buzzerOff   0x0024a8    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-            CheckPassword   0x0024ac    program     extern D:\MPLABProjects\SmartDoor.X\password\password.c
-            generate_pass   0x0024f4    program     extern D:\MPLABProjects\SmartDoor.X\password\password.c
-                 FXD1616S   0x002594    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  DA1616S   0x0025a6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                   D1616S   0x0025b6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x0025c0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x0025c4    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x0025d6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 FXD2424S   0x0025e0    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                  DA2424S   0x0025f6    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                   D2424S   0x00260a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                 D2424SOK   0x002614    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                D2424SNEG   0x002618    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                  D2424SX   0x002630    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                 FXM1616U   0x00263a    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
-                _do_cinit   0x002676    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     test   0x002690    program     static                          
-                copy_loop   0x0026e8    program     static                          
-            copy_one_byte   0x0026ee    program     static                          
-             done_copying   0x0026fc    program     static                          
-                     done   0x002712    program     static                          
-       ___return_lbl00002   0x002712    program     static                          
-               __string_9   0x002714    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_8   0x002725    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_7   0x002736    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_6   0x002747    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_5   0x002758    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_4   0x00275a    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_3   0x00276b    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_2   0x002777    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_1   0x002781    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-               __string_0   0x002792    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-                 init_adc   0x0027a4    program     extern D:\MPLABProjects\SmartDoor.X\adc\adc.c
-            get_adc_value   0x0027b2    program     extern D:\MPLABProjects\SmartDoor.X\adc\adc.c
-                  FXM3232   0x002830    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
-       ___return_lbl00000   0x00289e    program     static                          
-                 FXD3232U   0x0028a0    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                     loop   0x0028ae    program     static                          
-                   _false   0x0028e2    program     static                          
-       ___return_lbl00000   0x0028e6    program     static                          
-                    srand   0x0028e8    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
-                     rand   0x0028f6    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
-                 FXD2424U   0x002924    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424u.c
-                     loop   0x002930    program     static                          
-                   _false   0x002958    program     static                          
-       ___return_lbl00000   0x00295c    program     static                          
-                 FXD1616U   0x00295e    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                     loop   0x002968    program     static                          
-                  endloop   0x002984    program     static                          
-       ___return_lbl00000   0x002988    program     static                          
-            __zero_memory   0x00298a    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-               zero_block   0x002998    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                   loop_h   0x002998    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                compare_l   0x0029a0    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                   loop_l   0x0029a2    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                 _startup   0x0029aa    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x0029ba    program     static                          
-       ___return_lbl00001   0x0029c4    program     static                          
+       fsm_door_mode2_run   0x001160    program     extern D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+                init_uart   0x0013ea    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+            uart_delay_ms   0x001408    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+             uart_putchar   0x001490    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+            uart_send_str   0x0014ac    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+           UartSendString   0x0014ec    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+      UartSendConstString   0x00152c    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+            uart_power_of   0x001578    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+              UartSendNum   0x00165a    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+                 uart_isr   0x001890    program     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+               check_rfid   0x0018c4    program     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
+                 hexstr2l   0x001a64    program     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
+              init_timer3   0x001c0a    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+             start_timer3   0x001cc0    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+              stop_timer3   0x001d4c    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+               timer3_isr   0x001d50    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+             SetTimer2_ms   0x001db4    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+             SetTimer1_ms   0x001dee    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+             SetTimer3_ms   0x001e28    program     extern D:\MPLABProjects\SmartDoor.X\timer\timer.c
+          init_key_matrix   0x001e62    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
+init_key_matrix_with_uart   0x001e6a    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
+          scan_key_matrix   0x001e7c    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
+scan_key_matrix_with_uart   0x001f94    program     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
+           init_interrupt   0x0020b6    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
+            init_ext_int0   0x0020be    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
+                  low_isr   0x0020c6    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
+                 high_isr   0x00218c    program     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
+                     main   0x00223e    program     extern D:\MPLABProjects\SmartDoor.X\main\main.c
+                 delay_ms   0x0022a0    program     extern D:\MPLABProjects\SmartDoor.X\main\main.c
+              init_system   0x002328    program     extern D:\MPLABProjects\SmartDoor.X\main\main.c
+          init_peripheral   0x002374    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+               isDoorOpen   0x002380    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+           isButtonNumber   0x002386    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+            isButtonEnter   0x00240a    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+                 openDoor   0x00241a    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+           openDoorInside   0x00242c    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+          openDoorOutside   0x002454    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+                 buzzerOn   0x002484    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+                buzzerOff   0x002488    program     extern D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+                 FXD1616S   0x00248c    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x00249e    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                   D1616S   0x0024ae    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x0024b8    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x0024bc    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x0024ce    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 FXD2424S   0x0024d8    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                  DA2424S   0x0024ee    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                   D2424S   0x002502    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                 D2424SOK   0x00250c    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                D2424SNEG   0x002510    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                  D2424SX   0x002528    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                 FXM1616U   0x002532    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616u.asm
+            CheckPassword   0x00256e    program     extern D:\MPLABProjects\SmartDoor.X\password\password.c
+            generate_pass   0x0025b6    program     extern D:\MPLABProjects\SmartDoor.X\password\password.c
+                _do_cinit   0x00264e    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x002668    program     static                          
+                copy_loop   0x0026c0    program     static                          
+            copy_one_byte   0x0026c6    program     static                          
+             done_copying   0x0026d4    program     static                          
+       ___return_lbl00002   0x0026ea    program     static                          
+                     done   0x0026ea    program     static                          
+               __string_9   0x0026ec    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_8   0x0026fd    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_7   0x00270e    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_6   0x00271f    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_5   0x002730    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_4   0x002732    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_3   0x002743    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_2   0x00274f    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_1   0x002759    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+               __string_0   0x00276a    program     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+                 init_adc   0x00277c    program     extern D:\MPLABProjects\SmartDoor.X\adc\adc.c
+            get_adc_value   0x00278a    program     extern D:\MPLABProjects\SmartDoor.X\adc\adc.c
+                  FXM3232   0x002808    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x002876    program     static                          
+                 FXD3232U   0x002878    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                     loop   0x002886    program     static                          
+                   _false   0x0028ba    program     static                          
+       ___return_lbl00000   0x0028be    program     static                          
+                    srand   0x0028c0    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+                     rand   0x0028ce    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+                 FXD2424U   0x0028fc    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424u.c
+                     loop   0x002908    program     static                          
+                   _false   0x002930    program     static                          
+       ___return_lbl00000   0x002934    program     static                          
+                 FXD1616U   0x002936    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                     loop   0x002940    program     static                          
+                  endloop   0x00295c    program     static                          
+       ___return_lbl00000   0x002960    program     static                          
+            __zero_memory   0x002962    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               zero_block   0x002970    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   loop_h   0x002970    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                compare_l   0x002978    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   loop_l   0x00297a    program     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 _startup   0x002982    program     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x002992    program     static                          
+       ___return_lbl00001   0x00299c    program     static                          
                __config_0   0x300001    program     static D:\MPLABProjects\SmartDoor.X\main\main.c
                __config_1   0x300002    program     static D:\MPLABProjects\SmartDoor.X\main\main.c
                __config_2   0x300003    program     static D:\MPLABProjects\SmartDoor.X\main\main.c
@@ -705,10 +704,10 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
                      SIGN   0x000000       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
             __FPFLAGSbits   0x000001       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
                 __FPFLAGS   0x000001       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
-                 __AARGB7   0x000002       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                   __REMB3   0x000002       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
-                  __REMB2   0x000003       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB7   0x000002       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB6   0x000003       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB2   0x000003       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                   __REMB1   0x000004       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                  __AARGB5   0x000004       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
                   __REMB0   0x000005       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
@@ -728,16 +727,16 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
                  __TEMPB1   0x000012       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                    __TEMP   0x000013       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
                  __TEMPB0   0x000013       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\math\temparg.asm
-                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\uart\uart.c
-                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
-                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
-                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
-                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\main\main.c
-                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
-                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\password\password.c
-                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
                   __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\adc\adc.c
+                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
+                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\password\password.c
+                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\peripheral\peripheral.c
+                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\main\main.c
+                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
+                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\uart\uart.c
                   __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\timer\timer.c
+                  __tmp_0   0x000014       data     static D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
                  UserFont   0x000080       data     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
                 statusLCD   0x0000c0       data     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
                 LcdScreen   0x0000c1       data     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
@@ -752,13 +751,13 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
               admin_index   0x0000f7       data     extern D:\MPLABProjects\SmartDoor.X\rfid\rfid.c
             indexOfNumber   0x0000f8       data     extern D:\MPLABProjects\SmartDoor.X\password\password.c
                      pass   0x0000f9       data     extern D:\MPLABProjects\SmartDoor.X\password\password.c
-                     seed   0x0000fe       data     extern D:\MPLABProjects\SmartDoor.X\password\password.c
                      cnt0   0x000100       data     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
                      cnt1   0x000102       data     extern D:\MPLABProjects\SmartDoor.X\interrupt\interrupt.c
-                     Seed   0x000104       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
-               statusDoor   0x000106       data     extern D:\MPLABProjects\SmartDoor.X\global\global.c
-                     mode   0x000107       data     extern D:\MPLABProjects\SmartDoor.X\global\global.c
-                timeDelay   0x000108       data     extern D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
+              tempReceive   0x000104       data     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+             index_buffer   0x000105       data     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+                     Seed   0x000107       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\stdclib\rand.asm
+               statusDoor   0x000109       data     extern D:\MPLABProjects\SmartDoor.X\global\global.c
+                     mode   0x00010a       data     extern D:\MPLABProjects\SmartDoor.X\global\global.c
                  key_code   0x000f00       data     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
                 debounce1   0x000f18       data     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
                 debounce2   0x000f28       data     extern D:\MPLABProjects\SmartDoor.X\button_matrix\button.c
@@ -783,24 +782,23 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
                curr_entry   0x000f70       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                  data_ptr   0x000f72       data     static E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
             arrayPassword   0x000f75       data     extern D:\MPLABProjects\SmartDoor.X\password\password.c
-              current_row   0x000f79       data     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
-              current_col   0x000f7b       data     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
-              tempReceive   0x000f7d       data     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
-             index_buffer   0x000f7e       data     extern D:\MPLABProjects\SmartDoor.X\uart\uart.c
+              current_row   0x000f7b       data     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
+              current_col   0x000f7d       data     extern D:\MPLABProjects\SmartDoor.X\lcd\lcd.c
+                timeDelay   0x000f7f       data     extern D:\MPLABProjects\SmartDoor.X\fsm_door\fsm_door.c
                     PORTA   0x000f80       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                 PORTAbits   0x000f80       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                     PORTB   0x000f81       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                 PORTBbits   0x000f81       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                PORTCbits   0x000f82       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                     PORTC   0x000f82       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                PORTDbits   0x000f83       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                PORTCbits   0x000f82       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                     PORTD   0x000f83       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                PORTEbits   0x000f84       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                PORTDbits   0x000f83       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                     PORTE   0x000f84       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                 LATAbits   0x000f89       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                PORTEbits   0x000f84       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                      LATA   0x000f89       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                 LATBbits   0x000f8a       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 LATAbits   0x000f89       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                      LATB   0x000f8a       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 LATBbits   0x000f8a       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                      LATC   0x000f8b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                  LATCbits   0x000f8b       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                      LATD   0x000f8c       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
@@ -808,21 +806,21 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
                      LATE   0x000f8d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                  LATEbits   0x000f8d       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                  DDRAbits   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                    TRISA   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                      DDRA   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                 TRISAbits   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                 DDRBbits   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                     DDRB   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    TRISA   0x000f92       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                 TRISBbits   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                     TRISB   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     DDRB   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 DDRBbits   0x000f93       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                  DDRCbits   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                     DDRC   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                 TRISCbits   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                     TRISC   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     DDRC   0x000f94       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 DDRDbits   0x000f95       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     DDRD   0x000f95       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                 TRISDbits   0x000f95       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                     TRISD   0x000f95       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                     DDRD   0x000f95       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                 DDRDbits   0x000f95       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                      DDRE   0x000f96       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                  DDREbits   0x000f96       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                 TRISEbits   0x000f96       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
@@ -835,8 +833,8 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
                      PIR1   0x000f9e       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                  IPR1bits   0x000f9f       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                      IPR1   0x000f9f       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                     PIE2   0x000fa0       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                  PIE2bits   0x000fa0       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                     PIE2   0x000fa0       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                      PIR2   0x000fa1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                  PIR2bits   0x000fa1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                      IPR2   0x000fa2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
@@ -885,10 +883,10 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
                ADCON2bits   0x000fc0       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                    ADCON1   0x000fc1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                ADCON1bits   0x000fc1       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                   ADCON0   0x000fc2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                ADCON0bits   0x000fc2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                    ADRES   0x000fc3       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   ADCON0   0x000fc2       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                    ADRESL   0x000fc3       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                    ADRES   0x000fc3       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                    ADRESH   0x000fc4       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                   SSPCON2   0x000fc5       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
               SSPCON2bits   0x000fc5       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
@@ -902,8 +900,8 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
                     T2CON   0x000fca       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                       PR2   0x000fcb       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                      TMR2   0x000fcc       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                T1CONbits   0x000fcd       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                     T1CON   0x000fcd       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                T1CONbits   0x000fcd       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                     TMR1L   0x000fce       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                     TMR1H   0x000fcf       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                      RCON   0x000fd0       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
@@ -959,8 +957,8 @@ scan_key_matrix_with_uart   0x001fae    program     extern D:\MPLABProjects\Smar
                      PROD   0x000ff3       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                     PRODH   0x000ff4       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                    TABLAT   0x000ff5       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                  TBLPTRL   0x000ff6       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                    TBLPTR   0x000ff6       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  TBLPTRL   0x000ff6       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                   TBLPTRH   0x000ff7       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                   TBLPTRU   0x000ff8       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                       PCL   0x000ff9       data     extern E:\c18v3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm

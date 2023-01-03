@@ -5,15 +5,20 @@
         <group>
             <file>file:/D:/MPLABProjects/SmartDoor.X/global/global.h</file>
             <file>file:/D:/MPLABProjects/SmartDoor.X/rfid/rfid.c</file>
+            <file>file:/D:/MPLABProjects/SmartDoor.X/password/password.c</file>
             <file>file:/D:/MPLABProjects/SmartDoor.X/fsm_door/fsm_door.c</file>
+            <file>file:/D:/MPLABProjects/SmartDoor.X/adc/adc.c</file>
             <file>file:/D:/MPLABProjects/SmartDoor.X/fsm_door/fsm_door.h</file>
+            <file>file:/D:/MPLABProjects/SmartDoor.X/password/password.h</file>
+            <file>file:/D:/MPLABProjects/SmartDoor.X/rfid/rfid.h</file>
             <file>file:/D:/MPLABProjects/SmartDoor.X/lcd/lcd.c</file>
             <file>file:/D:/MPLABProjects/SmartDoor.X/global/global.c</file>
             <file>file:/D:/MPLABProjects/SmartDoor.X/interrupt/interrupt.h</file>
             <file>file:/D:/MPLABProjects/SmartDoor.X/uart/uart.h</file>
-            <file>file:/D:/MPLABProjects/SmartDoor.X/lcd/lcd.h</file>
             <file>file:/D:/MPLABProjects/SmartDoor.X/main/main.h</file>
             <file>file:/D:/MPLABProjects/SmartDoor.X/peripheral/peripheral.c</file>
+            <file>file:/D:/MPLABProjects/SmartDoor.X/button_matrix/button.c</file>
+            <file>file:/D:/MPLABProjects/SmartDoor.X/interrupt/interrupt.c</file>
             <file>file:/D:/MPLABProjects/SmartDoor.X/peripheral/peripheral.h</file>
             <file>file:/D:/MPLABProjects/SmartDoor.X/main/main.c</file>
             <file>file:/D:/MPLABProjects/SmartDoor.X/uart/uart.c</file>

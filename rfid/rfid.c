@@ -17,11 +17,11 @@ unsigned char check_rfid()
     }
     if(checksum != hexstr2l(msg_checksum, 2)) return 0;
     tag_id = hexstr2l(msg_tag,8);
-    for(i = 0; i < 2; i++)
+    for(rfid_index = 0; rfid_index < 2; rfid_index++)
     {
-        if(tag_id == arrayMapOfTagId[i])
+        if(tag_id == arrayMapOfTagId[rfid_index])
         {
-            rfid_index = i;
+//            rfid_index = i;
             return 1;
         }
     }

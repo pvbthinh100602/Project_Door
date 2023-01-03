@@ -15,6 +15,6 @@ unsigned char CheckPassword();
 
 extern unsigned int seed;
 extern unsigned char indexOfNumber;
-extern unsigned char arrayPassword[4];
+extern unsigned char arrayPassword[6];
 #endif	/* PASSWORD_H */
 
